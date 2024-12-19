@@ -44,7 +44,7 @@ export function MainSection() {
 										</a>
 
 										<a
-											href="#projects"
+											href="#projetos"
 											className="border-[2px] border-zinc-600 p-3 rounded-md text-sm sm:text-base transform transition-all duration-300 hover:scale-105 hover:border-zinc-400"
 										>
 											Veja meus projetos
