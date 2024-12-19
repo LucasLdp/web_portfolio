@@ -9,7 +9,7 @@ export function Header() {
 			// Atualiza o estado para adicionar um efeito ao rolar
 			setIsScrolled(window.scrollY > 0);
 
-			const sections = ["home", "sobre", "skills", "projects"];
+			const sections = ["home", "sobre", "skills", "Projetos"];
 			const currentSection = sections.find((section) => {
 				const element = document.getElementById(section);
 				if (!element) return false;
@@ -37,7 +37,7 @@ export function Header() {
 		>
 			<nav className="flex justify-end">
 				<div className="flex gap-5 text-zinc-200 text-sm">
-					{["home", "sobre", "skills", "projects"].map((section) => (
+					{["home", "sobre", "skills", "projetos"].map((section) => (
 						<a
 							key={section}
 							href={`#${section}`}
